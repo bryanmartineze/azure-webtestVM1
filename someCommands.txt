@@ -1,0 +1,5 @@
+//install Lamp Server
+sudo apt update && sudo install -y lamp-server^ 
+
+//assing HTTP port (80) to a VM
+az vm open-port -g webtest1 -n webtestVM1-ubuntu --port 80
